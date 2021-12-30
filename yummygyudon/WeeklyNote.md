@@ -24,7 +24,7 @@ Velog을 사용해서 작성 중에 있습니다.
 
 #### chapter 3 : 연산자 (Operator)
 
-​	: 
+​	: https://velog.io/@yummygyudon/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90Operator-%EC%A0%95%EB%A6%AC
 
 
 
