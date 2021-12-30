@@ -18,7 +18,7 @@
 
 ---
 
-## 자바 프로그램 작성
+## 자바 프로그램 작성 (인텔리제이에서 ctrl + shift + F10으로 실행)
 
 ```java
 class Hello {
@@ -96,3 +96,8 @@ public static void main(String[] args)에 오타가 존재하는 경우에 발�
 
 : 키워드 class나 interface 또는 enum이 없다라는 뜻인데 보통 괄호 {}의 개수가 일치하지 않는 경우에 발생
 
+
+
+---
+
+Java의 정석 기초편 | 남궁성 | 도우출판
