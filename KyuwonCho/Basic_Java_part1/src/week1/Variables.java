@@ -1,6 +1,6 @@
 package week1;
 import java.util.Scanner;
-
+// psvm은 main함수 추가해준다
 public class Variables {
     public static void main(String args[]) {
         Variables problems = new Variables();
