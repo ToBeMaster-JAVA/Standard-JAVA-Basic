@@ -1,5 +1,8 @@
 package week1;
 
+import java.awt.*;
+import java.util.Scanner;
+
 public class Operators {
     public static void main(String[] args) {
         /*
@@ -8,7 +11,7 @@ public class Operators {
         대입 연산자:                                    =
          */
         Operators examples = new Operators();
-        examples.ex6();
+        examples.ex17();
     }
 
     public void ex1() {
@@ -81,6 +84,101 @@ public class Operators {
     }
 
     public void ex7() {
+        // 피연산자 타입의 크기가 int의 크기인 4byte보다 작으면 연산시 int로 변환된다.
+        // ex) byte, short, char 는 연산시 각각 int로 변환되어 계산된다
+        // 4byte 이상인 경우, 피연산자 중 큰 타입으로 변환된다.
+        // ex) long + int => long + long = long
+        byte a = 10;
+        byte b = 30;
+        // byte + byte는 자동으로 int + int로 변환되기 때문에 byte로 변환을 시켜줘야 c에 바이트 타입으로 저장 가능
+        byte c = (byte)(a * b);
+        System.out.println(c); // 44 출력
+        // byte -> int는 데이터 손실이 없지만, 결과값인 int 300을 byte로 바꾸면서 손실이 생김
+    }
+
+    public void ex9() {
+        int a = 1_000_000;
+        int b = 2_000_000;
+        long c = a * b; // 오버플로우 발생: c에 저장되기 전 int인 a와 b의 결과값은 이미 int로 나왔기 때문에 발생
+        long d = (long)a * b; // 둘 중 하나를 long으로만 바꿔줘도 더 큰 타입인 long으로 계산 되기 때문에 오버플로우 미발생
+        System.out.println(c);
+        System.out.println(d);
+    }
+
+    public void ex10() {
+        long a = 1_000_000 * 1_000_000; //정수는 기본형이 int이기 때문에 결과값은 이미 int로 나옴
+        long b = 1_000_000 * 1_000_000L; // 뒤에 L을 붙임으로 long타입으로 변환하여 결과값이 long으로 나옴
+        System.out.println(a);
+        System.out.println(b);
+    }
+
+    public void ex11() {
+        double pi = 3.141592;
+        double roundedPi = Math.round(pi); // 소수 첫째자리 기준으로 반올림
+        double shortPi = Math.round(pi * 1000) / 1000.0; // 소수 넷째자리 기준으로 반올림
+        System.out.println(roundedPi);
+        System.out.println(shortPi);
 
     }
+
+    public void ex13() {
+        System.out.println(-10%8); // -2
+        System.out.println(10%-8); // 2
+        System.out.println(-10%-8); // -2
+        // 왼쪽 항에 있는 -는 음수로, 오른쪽항에 있는 것은 결국 절대값으로 나눈 것. 그래서 1, 3번이 같은 결과를 가져옴
+    }
+
+    public void ex14() {
+        String str1 = "abc";
+        String str2 = new String("abc");
+
+        System.out.printf("\"abc\" == \"abc\"? %b%n", "abc" == "abc");
+        System.out.printf("str1 == \"abc\"? %b%n", str1 == "abc");
+        System.out.printf("str2 == \"abc\"? %b%n", str2 == "abc");
+        System.out.println(str1 == str2); // false: str1과 str2는 다른 객체이기때문에 (저장된 주소가 다름)
+        System.out.println(str1.equals("abc"));
+        System.out.println(str2.equals("abc"));
+        System.out.println(str1.equals(str2)); //true: 안의 내용물이 같으면 true
+        // 따라서 값 자체를 비교하기 위해서는 equals를 사용, 같은 객체임을 확인하려면 == 사용용    }
+    }
+
+    public void ex15() {
+        Scanner scanner = new Scanner(System.in);
+        char ch = ' ';
+
+        System.out.printf("문자 1개 입력.>");
+        String input = scanner.nextLine();
+        ch = input.charAt(0);//입력받은 문자열의 0번째 index
+
+        if ('0' <= ch && ch <= '9') {
+            System.out.printf("숫자!");
+        } else if ('a' <= ch && ch <= 'z') {
+            System.out.printf("영소문자!");
+        } else {
+            System.out.printf("몰러~");
+        }
+    }
+
+    public void ex17() {
+        // javascript에서도 유용하게 썼던 삼항연산자로 true, false가 조건식으로 나올시 간단하게 적용 가능
+        int a = 6;
+        int b;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("숫자 하나 입력 바람");
+        b = scanner.nextInt();
+        scanner.close();
+
+        if (a < b) {
+            System.out.println("a는 b보다 작거나 같다");
+        } else {
+            System.out.println("a는 b보다 크다");
+        }
+
+        String str = (a < b) ? "a는 b보다 작거나 같다"
+                : "a는 b보다 크다";
+        System.out.println(str);
+
+    }
+
 }
