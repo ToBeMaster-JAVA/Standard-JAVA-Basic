@@ -34,7 +34,17 @@ Velog을 사용해서 작성 중에 있습니다.
 
 > 2021.12.31 ~ 2022.01.06
 
+#### chapter 4 - 1 : 조건문
 
+​	: https://velog.io/@yummygyudon/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90Operator-%EC%A0%95%EB%A6%AC
+
+#### chapter 4 - 2 : 반복문
+
+​	:
+
+#### chapter 5 : 배열 (Array)
+
+​	: 
 
 
 
