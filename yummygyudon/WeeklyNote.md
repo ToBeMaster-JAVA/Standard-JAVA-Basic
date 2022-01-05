@@ -40,7 +40,7 @@ Velog을 사용해서 작성 중에 있습니다.
 
 #### chapter 4 - 2 : 반복문
 
-​	:
+​	: https://velog.io/@yummygyudon/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8
 
 #### chapter 5 : 배열 (Array)
 
