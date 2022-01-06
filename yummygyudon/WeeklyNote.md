@@ -44,7 +44,9 @@ Velog을 사용해서 작성 중에 있습니다.
 
 #### chapter 5 : 배열 (Array)
 
-​	: 
+​	: https://velog.io/@yummygyudon/JAVA-%EB%B0%B0%EC%97%B4Array-%EC%A0%95%EB%A6%AC-1 (1편)
+
+https://velog.io/@yummygyudon/JAVA-%EB%B0%B0%EC%97%B4Array-%EC%A0%95%EB%A6%AC-2 (2편)
 
 
 

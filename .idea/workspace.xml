@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4db227d8-0e98-462a-88d2-2a7b285bd3ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yummygyudon/src/Ex4_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Standard-JAVA-Basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex2_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex3_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex4_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex4_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/Ex4_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Standard-JAVA-Basic/hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yummygyudon/WeeklyNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/yummygyudon/WeeklyNote.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yummygyudon/out/production/week1/Ex3_17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +35,8 @@
       <updated>1641385400645</updated>
       <workItem from="1641385405696" duration="417000" />
       <workItem from="1641385994433" duration="8000" />
+      <workItem from="1641386131651" duration="4000" />
+      <workItem from="1641386154286" duration="5000" />
     </task>
     <servers />
   </component>
