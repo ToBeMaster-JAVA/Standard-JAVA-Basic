@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ConditionalLoops {
     public static void main(String[] args) {
         ConditionalLoops examples = new ConditionalLoops();
-        examples.ex20();
+        examples.pro10();
     }
 
     public void ex1() {
@@ -333,6 +333,149 @@ public class ConditionalLoops {
                 }
             } // for loop
         } // while loop
+    }
+
+    public void problem1() {
+//        x > 10 && x < 20
+//        ch != ' ' && ch != '\t'
+//        ch == 'x' || ch == 'X'
+//        ch >= '0' && ch <= '9'
+//        (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')
+//        (year % 400 == 0 || x % 4 == 0) && (year % 100 != 0)
+//        powerOn != false // !powerOn
+//        str.equals("yes") //거꾸로도 가능!
+    }
+
+    public void pro2() {
+        int answer = 0;
+        for (int i = 0; i <= 20; i++) {
+            if (i%2!=0 && i%3!=0) {
+                answer += i;
+            }
+        }
+        System.out.print(answer);
+    }
+
+    public void pro3() {
+        int answer = 0;
+        String equation = "";
+        for (int i=1; i<=10; i++) {
+            for (int j=1; j<=i; j++) {
+                answer += j;
+                if (j==i && j != 1) {
+                    if (i < 10) {
+                        equation += String.format("%d)+", j);
+                    } else {
+                        equation += String.format("%d)", j);
+                    }
+                } else if (j==1 && j!=i) {
+                    equation += String.format("(%d+", j);
+                } else if (j==i && j==1){
+                    equation += String.format("(%d)+", j);
+                } else {
+                    equation += String.format("%d+", j);
+                }
+            }
+        }
+        System.out.printf(equation+"=%d%n", answer);
+    }
+
+    public void pro4() {
+        int answer = 0, num = 0;
+        adding: for (int i=1;;i++) {
+            if (i%2==1) {
+                answer += i;
+            } else {
+                answer -= i;
+            }
+            if (answer >= 100) {
+                num = i;
+                break adding;
+            }
+        }
+        System.out.println(num);
+    }
+
+    public void pro5() {
+        int i = 0, j = 0;
+
+        while (i <= 10) {
+            while (j <= i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i++;
+            j=0;
+        }
+    }
+
+    public void pro6() {
+        for (int i=1; i<=6; i++) {
+            for (int j=1; j<=6; j++) {
+                if (i+j==6) {
+                    System.out.printf("주사위1: %d, 주사위2: %d%n", i, j);
+                }
+            }
+        }
+    }
+
+    public void pro7() {
+        String str = "12345";
+        int sum = 0;
+        //hint : String의 charAt(int i) 사용
+
+//        for (int i=0; i<str.length(); i++) {
+//            double num =Integer.parseInt(str)/Math.pow(10, i);// Math.pow는 double로 줘야한다.
+//            sum += num%10; // sum은 int로 지정
+//        }
+//        System.out.println(sum);
+
+        for (int i=0; i<str.length(); i++) {
+            sum += Integer.parseInt(str.charAt(i)+"");
+        }
+        System.out.println(sum);
+    }
+
+    public void pro8() {
+        int value = (int) (Math.random() * 6) + 1; // 0.0 <= Math.random() < 1.0
+        System.out.println("value: "+value);
+    }
+
+    public void pro9() {
+        int num = 12345;
+        int sum = 0;
+//        while (true) {
+//            sum += num % 10;
+//            num /= 10;
+//            if (num==0) break;
+//        }
+        for (int i=0; num>0; i++) {
+            sum += num % 10;
+            num /= 10;
+        }
+        System.out.println(sum);
+    }
+
+    public void pro10() {
+        int answer = (int) (Math.random() * 100) + 1;
+        int input = 0, count = 0;
+
+        Scanner scanner = new Scanner(System.in);
+
+        do {
+            count ++;
+            System.out.print("1~100 값 입력 >");
+            input = scanner.nextInt();
+            if (input < answer) {
+                System.out.println("더 큰 수");
+            } else if (input > answer) {
+                System.out.println("더 작은 수");
+            } else {
+                System.out.printf("정답! 도전 횟수: %d", count);
+                break;
+            }
+        } while(true);
     }
 }
 
