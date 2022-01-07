@@ -2,7 +2,7 @@
 
 
 
-[관련 velog 주소](https://velog.io/@mandarin913/Java-3-%EC%97%B0%EC%82%B0%EC%9E%90)
+[관련 velog 주소](https://velog.io/@mandarin913/Java-4-%EC%A1%B0%EA%B1%B4%EB%AC%B8%EA%B3%BC-%EB%B0%98%EB%B3%B5%EB%AC%B8)
 
 
 ## if문
