@@ -1092,6 +1092,57 @@ arr[9] : 4
 
 
 
+#### 인스턴스 초기화 블럭과 생성자의 차이점
+
+- 생성자 : 인스턴스 변수를 초기화 시키기 위해 
+- 인스턴스 초기화 블럭 : 인스턴스 변수를 초기화 시키기 위해 사용
+
+
+
+=> 둘의 목적은 같음 .  언제 어떤걸 사용해야할까?
+
+- 생성자와 인스턴스 초기화 블럭의 차이는 거의 없음
+- 인스턴스 초기화 블럭은 잘 사용되지 않음
+- 단,  여러개의 생성자가 있으면 모든 생성자에서 공통으로 수행되어야할 코드를 인스턴스 초기화 블럭에 포함하여 코드의 중복을 막을 수 있음
+
+```java
+class Car {
+    private String modelName;
+    private int modelYear;
+    private String color;
+    private int  maxSpeed;
+    private int currentSpeed;
+    
+    { // 인스턴스 초기화 블럭
+        this.currentSpeed = 0;
+    }
+    
+    Car(){}
+    Car(String modelName, int modelYear, String color, int maxSpeed) {
+        this.modelName = modelName;
+        this.modelYear = modelYear;
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+    }
+    
+    public int getSpeed(){
+        return currentSpeed;
+    }   
+}
+
+public class Member03{
+    public static void main(String[] args){
+        Car myCar = new Car(); // 인스턴스 생성
+        
+        System.out.println(myCar.getSpeed()); // 인스턴스 메소드의 호출 
+    }
+}
+
+실행 결과 : 0 
+```
+
+
+
 ---
 
 Java의 정석 기초편 | 남궁성 | 도우출판
