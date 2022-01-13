@@ -28,9 +28,10 @@ types = {
 <br>
 
 ## 👀 Table of Contents
+[:books:Java의 정석](#java의-정석---주차별-정리)
 
-- [:pushpin: 2주차](##-:pushpin:-2주차)
-- [:pushpin: 3주차](##-:pushpin:-3주차)
+- [:pushpin: 2주차](#pushpin-2주차)
+- [:pushpin: 3주차](#pushpin-3주차)
 
 <br>
 
