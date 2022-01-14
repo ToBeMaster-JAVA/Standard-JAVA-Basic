@@ -173,7 +173,7 @@ public class chapter4_exercises {
             }
             System.out.println("선택하신 메뉴는 " + menu + "번입니다.");
 
-            
+
         }
     }
 }
