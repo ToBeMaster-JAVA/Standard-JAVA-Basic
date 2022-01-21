@@ -69,7 +69,7 @@ types = {
 > 2022.01.15 ~ 2022.01.21  
 > 「Chapter 7. 객체지향 프로그래밍 ll - 233.pg」  
 
-- 진행 예정
+- [Chapter 7. 객체지향개념 II](https://velog.io/@red_pen9uin/Chapter-7.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EA%B0%9C%EB%85%90-II)
 
 <br>
 
