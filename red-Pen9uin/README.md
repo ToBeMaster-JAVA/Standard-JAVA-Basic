@@ -14,16 +14,16 @@
 ## 👀 Commit Message Rule
 ```
 types = {
-      FEAT : 새로운 기능에 대한 커밋
-      FIX : 버그 수정에 대한 커밋
-      BUILD : 빌드 관련 파일 수정에 대한 커밋
-      CHORE : 그 외 자잘한 수정에 대한 커밋
-      CI : CI관련 설정 수정에 대한 커밋
-      DOCS : 문서 수정에 대한 커밋
-      STYLE : 코드 스타일 혹은 포맷 등에 관한 커밋
-      REFACTOR :  코드 리팩토링에 대한 커밋
-      TEST : 테스트 코드 수정에 대한 커밋
-    }
+    FEAT : 새로운 기능에 대한 커밋
+    FIX : 버그 수정에 대한 커밋
+    BUILD : 빌드 관련 파일 수정에 대한 커밋
+    CHORE : 그 외 자잘한 수정에 대한 커밋
+    CI : CI관련 설정 수정에 대한 커밋
+    DOCS : 문서 수정에 대한 커밋
+    STYLE : 코드 스타일 혹은 포맷 등에 관한 커밋
+    REFACTOR :  코드 리팩토링에 대한 커밋
+    TEST : 테스트 코드 수정에 대한 커밋
+}
 ```
 
 <br>
@@ -35,6 +35,7 @@ types = {
 - [:pushpin: 3주차](#pushpin-3주차)
 - [:pushpin: 4주차](#pushpin-4주차)
 - [:pushpin: 5주차](#pushpin-5주차)
+- [:pushpin: 6주차](#pushpin-6주차)
 
 <br>
 
@@ -87,3 +88,18 @@ types = {
 > 발표 장소 : `Wiki`
 
 - [Chapter 8. 예외 처리](https://velog.io/@red_pen9uin/Chapter-8.-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC)
+
+<br>
+
+---
+
+## :pushpin: 6주차
+
+> 2022.01.29 ~ 2022.02.04  
+> 1. 교재 이해  
+> 「Chapter 9. java.lang패키지와 유용한 클래스」  
+> 2. 깜지  
+> - A4 2장 (4쪽) 분량 _ "**객체지향(chap.6 ~ chap.7) 개념**" 정리
+> - 작성 : **`Google Docs`** 에 작성하고 본 이슈 댓글에 ***링크 기재***
+
+- 작성 예정
