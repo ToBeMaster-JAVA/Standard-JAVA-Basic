@@ -34,6 +34,7 @@ types = {
 - [:pushpin: 2주차](#pushpin-2주차)
 - [:pushpin: 3주차](#pushpin-3주차)
 - [:pushpin: 4주차](#pushpin-4주차)
+- [:pushpin: 5주차](#pushpin-5주차)
 
 <br>
 
@@ -73,3 +74,16 @@ types = {
 
 <br>
 
+---
+
+## :pushpin: 5주차
+
+> 2022.01.22 ~ 2022.01.28  
+> 1. 교재 이해  
+> 「Chapter 8. 예외 처리」  
+> 2. 문제 준비  
+> Chapter 7. 객체 지향 프로그래밍 Ⅱ ( 각 담당 구역 총 2문제 씩 _ 해설까지)  
+> 문제 발표 : 당일 스터디 시작 (오후 8시에)  
+> 발표 장소 : `Wiki`
+
+- [Chapter 8. 예외 처리](https://velog.io/@red_pen9uin/Chapter-8.-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC)
