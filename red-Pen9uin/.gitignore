@@ -1,5 +1,10 @@
-#Java의정석 예제
+#Java의정석 예제, sample book
 자바의정석_예제/java_jungsuk3_pdf/*
+자바의정석/javajungsuk_basic_sample.pdf
+
+#pdf 필기
+자바의정석/[Java의정석3판]ch11_CF.pdf
+자바의정석/[Java의정석3판]ch12_GEA_20170830.pdf
 
 #3주차
 자바의정석/Chapter-6 객체지향개념/*
@@ -12,6 +17,12 @@
 
 #6주차
 자바의정석/Chapter-9 java.lang패키지와 유용한 클래스/*
+
+#7주차
+자바의정석/Chapter-10 날짜와 시간 & 형식화/*
+
+#8주차
+자바의정석/Chapter-11 Collection Framework/*
 
 #Intelij
 red-Pen9uin.iml

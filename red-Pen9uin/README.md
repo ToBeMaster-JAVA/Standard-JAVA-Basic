@@ -36,6 +36,8 @@ types = {
 - [:pushpin: 4주차](#pushpin-4주차)
 - [:pushpin: 5주차](#pushpin-5주차)
 - [:pushpin: 6주차](#pushpin-6주차)
+- [:pushpin: 7주차](#pushpin-7주차)
+- [:pushpin: 8주차](#pushpin-8주차)
 
 <br>
 
@@ -103,3 +105,31 @@ types = {
 > - 작성 : **`Google Docs`** 에 작성하고 본 이슈 댓글에 ***링크 기재***
 
 - [Chapter 9. java.lang패키지와 유용한 클래스](https://velog.io/@red_pen9uin/Chapter-9.-java.lang%ED%8C%A8%ED%82%A4%EC%A7%80%EC%99%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-%ED%81%B4%EB%9E%98%EC%8A%A4)
+
+<br>
+
+---
+
+## :pushpin: 7주차
+
+> 2022.02.05 ~ 2022.02.11  
+> 1. 교재 이해  
+> 「Chapter 10. 날짜와 시간 & 형식화」  
+> 2. 문제 준비  
+> Chapter 8. 예외처리 ~ Chapter 9. java.lang패키지와 유용한 클래스 ( 각 담당 구역 총 2문제 ~ 3문제 씩 _ 해설까지)  
+> 문제 발표 : 당일 스터디 시작 (오후 8시에)  
+> 발표 장소 : `Wiki`
+
+- 작성 예정
+
+---
+
+## :pushpin: 8주차
+
+> 2022.02.12 ~ 2022.02.18  
+> 1. 교재 이해  
+> - 「Chapter 11. 컬렉션 프레임웍」  
+> 2. 문제 준비  
+> - 휴무
+
+- 작성 예정
